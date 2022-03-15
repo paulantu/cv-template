@@ -12,6 +12,12 @@
     padding: 1rem;
 }
 
+.progress{
+    background-color: #00E4DC!important;
+}
+.progress-color{
+    background-color: #00428F!important;
+}
 .header-section img{
     width: 10%;
 }
@@ -43,4 +49,115 @@
     width: 50%;
     float: left;
     padding-left: 2rem;
+}
+
+
+
+.education-experience, .skill-language{
+    display: flex;
+}
+.skill h2, .language h2{
+    padding: 20px 0px 15px 0px;
+}
+.education{
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.skill{
+    border-right: 2px solid #fff;
+}
+
+.experience{
+    border-bottom: 2px solid #fff;
+}
+.education h2, .experience h2{
+    padding-bottom: 15px;
+}
+.education, .experience, .skill, .language{
+    width: 50%;
+}
+
+.education ul{
+    list-style: none;
+}
+.education-steps{
+    position: relative;
+}
+.education-step li:first-child{
+    padding-right: 15px;
+}
+
+.education-step li:last-child{
+    border-left: 2px solid #063E96;
+    padding: 0px 15px;
+}
+.education-step li::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -8px;
+    left: 165px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #063E96;
+}
+.education-step li::before{
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 165px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #063E96;
+}
+
+.education-step li{
+    display: inline-block;
+}
+
+.education-step li strong{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.education-step li p{
+    font-size: 12px;
+}
+
+
+
+.experience-steps li{
+    list-style: none;
+}
+
+.experience-steps li strong{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.experience-steps li p{
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+
+
+
+.language ul li{
+    display: flex;
+    margin: 10px 0;
+}
+.language-label{
+    width: 25%;
+}
+.language-progress{
+    width: 75%;
+}
+
+
+
+
+.skill-language{
+    padding-bottom: 50px;
 }
