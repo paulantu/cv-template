@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cv-body{
+    width: 49.625rem;
+    background-color: #001C42;
+    color: #fff;
+    margin: 0px auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.header-section img{
+    width: 10%;
+}
+
+.personal{
+    display: flex;
+    justify-content: center;
+}
+.personal img{
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+}
+.personal-info{
+    display: flex;
+}
+.my-data{
+    width: 50%;
+    float: left;
+    border-right: 2px solid #fff;
+}
+.name h2{
+    line-height:1.2rem!important;
+}
+.my-data h5, .about-me h5{
+    letter-spacing: 3px;
+}
+.about-me{
+    width: 50%;
+    float: left;
+    padding-left: 2rem;
+}
